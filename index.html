@@ -5,13 +5,18 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
 	  <script src="webp.js"></script>
-    <header>
-      <h1>Jo Correia</h1>
+    <header class="header">
+      <h1 id="name">Jo Correia</h1>
       <nav>
-        <img id="menu" src="Assets\menu-icon.svg">
+        <div id="menu">
+          <img id="hamburger-menu"src="Assets\menu-icon.svg">
+        </div>
         <section id="hidden-menu">
           <h3>About me</h3>
           <h3>Projects</h3>
@@ -21,6 +26,9 @@
       </nav>
     </header>
     <main>
+      <section id="right">
+        <img id="photo" src="Assets\IMG_5653.JPG" alt="Photo of Jo Correia">
+      </section>
       <section id= "left">
         <h2>
           About Me
@@ -48,9 +56,6 @@
         <h2>
           Contacts
         </h2>
-      </section>
-      <section id="right">
-        <img id="photo" src="Assets\IMG_5653.JPG" alt="Photo of Jo Correia">
       </section>
     </main>
     <footer>
