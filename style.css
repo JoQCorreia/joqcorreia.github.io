@@ -24,20 +24,10 @@ a {
    font-size: 1.2rem;
    margin-top: 10vh;
    margin-bottom: 10vh;
-}
-
-/* unvisited link */
-a:link {
    color: white;
    text-decoration: none;
- }
+}
  
- /* visited link */
- a:visited {
-   color: rgb(138, 39, 153);
-   text-decoration: none;
- }
-
 body{
    margin:0;
 }
@@ -71,7 +61,7 @@ body{
 }
    
 #hidden-menu{
-   display:none;
+   display: none;
    position: absolute;
    right:0%;
    width: 25vh;
