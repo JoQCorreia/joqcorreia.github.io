@@ -7,61 +7,71 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   </head>
   <body>
-	  <script src="webp.js"></script>
+	  <script src="webp.js" async="true"></script>
     <header class="header">
-      <h1 id="h1-name">Jo Correia</h1>
-      <nav>
+        <h1 id="h1-name">Jo Correia</h1>
         <div id="menu">
-          <img id="hamburger-menu"src="Assets\menu-icon.svg">
+          <img id="hamburger-menu" src="Assets\menu-icon.svg">
         </div>
-        <section id="hidden-menu">
-          <h3>About me</h3>
-          <h3>Projects</h3>
-          <h3>Skills</h3>
-          <h3>Contacts</h3>
-        </section>
-      </nav>
     </header>
+    <nav>
+      <section id="hidden-menu">
+        <div class="links"><a href="#about">About me</a></div>
+        <div class="links"><a href="#projects">Projects</a></div>
+        <div class="links"><a href="#skills">Skills</a></div>
+        <div class="links"><a href="#contacts">Contacts</a></div>
+      </section>
+    </nav>
     <main>
       <div class="main">
-      <div class="left">
-        <h2>
-          About Me
-          <h3>
-            The lorem to the ipsum and this placeholder text i have no desire to think about but ultimately i need to move on from here im afraid. I'll be back tho, no worries ok?
-          </h3>
-        </h2>
-        <section>
-          <h2>
-            Projects
-          </h2>
-          <img id="git-button" src="Assets\github-mark-white.svg">
-        </section>
-        <section>
-          <h2>
-            Skills
-          </h2>
-          <section>
-            <img class="icons" src="Assets\HTML5_Logo.svg">
-            <img class="icons" src="Assets\CSS3_logo_and_wordmark.svg.png">
-            <img class="icons" src="Assets\JavaScript-logo.png">
-            <img class="icons" src="Assets\Python-logo-notext.svg">
+        <div class="section1">
+          <section id="about" class="intro-text">
+            <h2>
+              About Me
+              <h3>
+                <p>I'm a vet and I started out by solving complex medical problems, then I worked as a veterinary copywriter and I sought out to solve equally complex communication problems for a varied array of marketing clients, both big and small.</p>
+                <p>Now I'm looking to put my sharp problem solving skills as well as my 7 years of experience in fast-paced, highly productive projects to tackle exciting new tech challenges!</p> 
+              </h3>
+            </h2>
           </section>
-        </section>
-        <h2>
-          Contacts
-        </h2>
-      </div>
-      <div class="right">
-      <section id= "right">
-        <section id="left">
-          <img id="photo" src="Assets\IMG_5653.JPG" alt="Photo of Jo Correia">
-        </section>
+          <section id="photo-square">
+            <img id="photo" src="Assets\IMG_5653.JPG" alt="Photo of Jo Correia">
+          </section>
         </div>
-      </section>
+        <div class="section2">
+          <section id="projects" class="projects">
+            <h2>
+              Projects
+            </h2>
+           <a href="https://github.com/JoQCorreia" target ="_blank"> <div class="button-wrapper">
+              <img id="git-button" src="Assets\github-mark-white.svg">
+            </div></a>
+          </section>
+          <section id="skills" class="skills">
+            <h2>
+              Skills
+            </h2>
+            <section>
+              <img class="icons" src="Assets\HTML5_Logo.svg">
+              <img class="icons" src="Assets\CSS3_logo_and_wordmark.svg.png">
+              <img class="icons" src="Assets\Javascript_badge.svg">
+              <img class="icons" src="Assets\Python-logo-notext.svg">
+            </section>
+          </section>
+          <section id="contacts" class="contacts">
+            <h2>
+              Contacts
+            </h2>
+            <section class="contact-button">
+              <a href="https://www.linkedin.com/in/joanacorreia183/" target="_blank">
+                <img id="img-contact" src="Assets\LinkedIn_icon.svg" alt="LinkedIn button">
+                </a>
+            </section>
+          </section>
+        </div>
     </div>
     </main>
     <footer>
