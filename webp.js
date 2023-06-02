@@ -1,10 +1,12 @@
-console.log("test");
+let bing = document.getElementById('hamburger-menu')
 
-let bing = document.getElementById('hamburger-menu').onclick
+bing.addEventListener("click", work);
 
-function work(bing) {
-    let menu = document.getElementById("hidden-menu");
-    console.log(menu);
+let menu = document.getElementById("hidden-menu");
+menu.style.display = "none";
+
+function work(bing){
+
     if (menu.style.display === "none"){
         menu.style.display = "block";
     } else {
