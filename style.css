@@ -1,4 +1,9 @@
 /* page styles */
+*{
+   margin:0;
+   border:0;
+}
+
 h1 {
    font-family: 'Wix Madefor Text', sans-serif;
    font-weight: 700;
@@ -59,7 +64,6 @@ body{
 
 #hamburger-menu{
    max-height: 30px;
-   margin-right: 140%;
 }
    
 #hidden-menu{
@@ -241,4 +245,54 @@ footer{
       max-width: 35%;
       margin-left: 15vw;
    }
+}
+
+@media screen and (max-width: 581px){
+
+   main{
+      display:block;
+   }
+
+   #h1-name{
+      font-size:2rem;
+   }
+
+   #hidden-menu{
+      position:absolute;
+      width:100%;
+      border-radius: 0%;
+      border-left: none;
+      border-right:none;
+   }
+
+   .section1{
+      margin-right:5vw;
+   }
+
+   #photo-square{
+      display:flex;
+      align-self: center;
+      width:200px;
+      height:200px;
+   }
+
+   #photo{
+      width:200px;
+      height:200px;
+   }
+
+   .intro-text{
+      max-width: 100%;
+      max-height: 100%;
+      padding: 2%;
+      margin-top: 2vh;
+      overflow: scroll;
+   
+   }
+
+   .section2{
+      margin-top: 2vh;
+      margin-left: 5vw;
+   }
+
 }
